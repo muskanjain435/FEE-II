@@ -1,0 +1,81 @@
+body {
+    background-image: url(chitkara.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top-color: red;
+    border-top-width: 10px;
+    border-top-style: solid;
+}
+
+form {
+    height: 550px;
+    width: 275px;
+    background-color: white;
+    font-family: Arial;
+    border: 2px solid #ccc;
+    margin-top: 50px;
+    margin-left: 1000px;
+    margin-right: 100px;
+    padding-left: 20px;
+    padding-top: 15px;
+    font-size: 15px;
+}
+
+.text {
+    font-size: 15px;
+    padding-top: 20px;
+}
+
+.in {
+    border: 1px solid #7f9db9;
+    height: 22px;
+    width: 220px;
+}
+
+select {
+    height: 23px;
+    width: 225px;
+    font-size: 12px;
+    border: 1px solid #7f9db9;
+}
+
+.check {
+    margin-top: 2px;
+    padding-left: 2px;
+    padding-top: 5px;
+    color: #000;
+    font-size: 12px;
+}
+
+.image {
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.rem {
+    color: #000;
+    font-size: 12px;
+    margin-top: 0px;
+}
+
+.pr {
+    font-size: 12px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: #2e5b87;
+}
+
+.mob {
+    font-size: 11px;
+    margin-left: 25px;
+}
+
+.pow {
+    text-align: left;
+    padding-left: 18px;
+    color: #545454;
+    font-size: 14px;
+}
+
+.left {
+    margin-left: 93%;
+}
