@@ -2,25 +2,25 @@
 
 // A: constructor:
 // const obj = new Object();
-// obj.name = "Shivam";
+// obj.name = "Muskaan";
 // console.log(obj)
 
 // B: literals:
 
 // const user = 
 // {
-//     name: 'shivam',    //name: key, shivam: value
-//     'full name': 'shivam singh',
+//     name: 'muskan',    //name: key, muskan: value
+//     'full name': 'Muskan',
 //     age: 24,
 //     Class: 'FEE',
-//     email: 'shivam.webcraft@gmail.com'
+//     email: 'muskan.aanu@gmail.com'
 // }
 
 // updating object:
-// user.name = 'shivam singh'
+// user.name = 'Muskan'
 // console.log(user)
 
-// Accessing object value:
+//Accessing object value:
 // console.log(user.age)
 // console.log(user['full name'])
 // console.log(user)
@@ -29,15 +29,15 @@
 // Object inside object:
 // const users = {
 //     user1: {
-//         name: 'shivam',
+//         name: 'muskan',
 //         age: 24
 //     },
 //     user2: {
-//         name: 'satyam',
+//         name: 'khushi',
 //         age: 24
 //     },
 //     user3: {
-//         name: 'kanav',
+//         name: 'kritika',
 //         age: 24
 //     }
 // }
@@ -48,11 +48,11 @@
 
 
 // object merge:
-const user1 = {name1: 'Yash', age1:25};
-const user2 = {name2: 'Devdutt', age2:24};
+const user1 = { name1: 'Yash', age1: 25 };
+const user2 = { name2: 'Devdutt', age2: 24 };
 
 // const user3 = Object.assign(user1,user2)
-const user4 = {...user1,...user2}
-// console.log([...user1,...user2])
+const user4 = {...user1, ...user2 }
+    // console.log([...user1,...user2])
 console.log(user1)
 console.log(user4)
